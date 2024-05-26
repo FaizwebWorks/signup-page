@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mukta:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div
+        class="signup-container bg-[#EDEDED] flex items-center justify-center h-screen w-full"
+      >
+        <div
+          class="flex h-3/4 w-[60%] bg-white rounded-2xl overflow-hidden p-4 shadow-xl"
+        >
+          <div
+            class="left h-full w-[45%] relative rounded-2xl flex items-center justify-center overflow-hidden bg-blue-600"
+          >
+            <img
+              class="w-[300px] absolute top-[10%]"
+              src="./assets/1.png"
+              alt=""
+            />
+            <div
+              class="flex font-left flex-col items-center absolute text-white bottom-[16%]"
+            >
+              <h1 class="font-medium text-3xl">Be Verified</h1>
+              <p class="text-center mt-4 w-[60%]">
+                Join experienced Designers on this platform.
+              </p>
+            </div>
+          </div>
+          <div
+            class="right w-[55%] flex flex-col justify-center font-right h-full p-10 pr-12"
+          >
+            <h1 class="font-medium text-3xl mb-2">Hello, Again</h1>
+            <p>We are happy to have you back.</p>
+            <div class="inputs flex flex-col mt-8 gap-3">
+              <input
+                class="bg-[#F7F9FB] focus:outline-none focus:border-blue-600 border border-slate-200 rounded-md px-5 py-2"
+                type="email"
+                placeholder="Email address"
+              />
+              <input
+                class="bg-[#F7F9FB] focus:outline-none focus:border-blue-600 border border-slate-200 rounded-md px-5 py-2"
+                type="password"
+                placeholder="Password"
+              />
+              <div class="flex items-center justify-between">
+                <div class="flex items-center justify-center gap-2">
+                  <input class="h-4 w-4 cursor-pointer" type="checkbox" />
+                  <span class="opacity-70 text-sm">Remeber Me</span>
+                </div>
+                <div class="forget-psw">
+                  <a class="text-sm underline text-blue-600" href=""
+                    >Forgot Password?</a
+                  >
+                </div>
+              </div>
+              <button
+                class="bg-blue-600 py-3 mt-5 -mb-4 text-white font-medium rounded-md"
+              >
+                Login
+              </button>
+              <button
+                class="bg-gray-100 flex items-center justify-center py-3 mt-5 mb-5 text-black text-sm gap-2 font-medium rounded-md"
+              >
+                <img class="w-6" src="./assets/google.png" alt="" /> Sign In
+                with Google
+              </button>
+              <p>
+                Don't have account?
+                <span class="text-blue-600 underline cursor-pointer"
+                  >Sign Up</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
